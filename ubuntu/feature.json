@@ -1,0 +1,9 @@
+{
+    "options": [
+        { 
+            "displayName": "Build with Moby",
+            "buildArg": "USE_MOBY",
+            "type": "flag"
+        }
+    ]
+}
