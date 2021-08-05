@@ -1,9 +1,24 @@
 {
     "options": [
         { 
+            "displayName": "Enable non-root Docker",
+            "buildArg": "ENABLE_NONROOT_DOCKER",
+            "type": "boolean"
+        },
+        { 
+            "displayName": "Username",
+            "buildArg": "USERNAME",
+            "type": "string"
+        }, 
+        { 
             "displayName": "Build with Moby",
             "buildArg": "USE_MOBY",
-            "type": "flag"
+            "type": "boolean"
+        }, 
+        { 
+            "displayName": "Microsoft GPG Keys URI",
+            "buildArg": "MICROSOFT_GPG_KEYS_URI",
+            "type": "string"
         }
     ]
 }
